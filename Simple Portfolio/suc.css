@@ -1,0 +1,43 @@
+    body {
+        background-image:repeating-radial-gradient(#ADD8E6 , darkblue, #ADD8E6);
+        margin-top: 100px;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        font-weight: bolder;
+    }
+    fieldset {
+        border: 0;
+        background-color:transparent;
+        padding-bottom: 30px;
+    }
+    p {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: whitesmoke;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    button {
+        background: blue;
+        border: 0;
+        color: white;
+        width: 224px;
+        padding: 10px;
+        text-transform: uppercase;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-left: 500px;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: normal;
+        }
+    

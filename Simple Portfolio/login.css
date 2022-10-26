@@ -1,0 +1,76 @@
+.login {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #ADD8E6 , darkblue, #ADD8E6);
+}
+h1 {
+    color: white;
+}
+.all {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+#style {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 50px;
+    color: blue;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+button {
+    background-color: rgb(19, 19, 204);
+    border: hidden;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 50px 0 10 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: darkblue;
+}
+form {
+    text-align: center;
+    font-size: larger;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blue;
+}
+input {
+    border-style: double;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+fieldset {
+    border: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+footer {
+    text-align: right;
+    margin-top: 50px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.hyper:hover {
+   text-decoration: underline;
+}

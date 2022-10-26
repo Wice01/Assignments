@@ -1,0 +1,101 @@
+#body {
+  background-color: rgb(5, 33, 50);
+}
+form {
+  margin-top: 0px;
+}
+input {
+  border: transparent;
+  display: flexbox;
+  background-color: transparent;
+  width: 300px;
+}
+input,
+textarea {
+  border: none;
+  padding: 1rem;
+  font-family: "Overlock", Arial, Helvetica, sans-serif;
+  width: 550px;
+  height: fit-content;
+  transition: 200ms;
+  font-size: medium;
+}
+#name,
+#mail,
+#phone,
+#name:not(output):not(:focus),
+#mail:not(output):not(:focus),
+#phone:not(output):not(:focus),
+textarea {
+  border-bottom: 2px solid black;
+  background: transparent;
+  color: grey;
+  font-size: 1.8rem;
+  box-shadow: none;
+  outline: none;
+}
+
+#name:focus,
+#mail:focus,
+#phone:focus,
+#name:not(output):focus,
+#mail:not(output):focus,
+#phone:not(output):focus,
+textarea:focus {
+  border-bottom: 2px solid darkblue;
+}
+input[type="submit"] {
+  background: blue;
+  color: #fafafa;
+  margin-top: 50px;
+  width: auto;
+  float: right;
+  margin-bottom: 50px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  cursor: pointer;
+  color: black;
+  background: #fafafa;
+}
+
+/* ::placeholder {
+    color: #fafafa;
+  }
+   */
+fieldset {
+  border: 0;
+  padding: 20px;
+  background-color: transparent;
+}
+fieldset hr {
+  width: 100px;
+  margin-left: 700px;
+}
+::placeholder {
+    color: grey;
+    font-size: 15px;
+  }
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+hr {
+    width: 500px;
+    float: left;
+}
+#button {
+  margin-right: 50%;
+  border-radius: 10%;
+}
+textarea {
+  margin-top: 0%;
+  height: 100px;
+  width: 550px;
+}
