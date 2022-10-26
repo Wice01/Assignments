@@ -1,0 +1,1 @@
+This a list of my first set of commit in the Zuri program. I have woorked on various projects ranging from simple portfolios, grid and flex layouts, login and registration pages among many others.
